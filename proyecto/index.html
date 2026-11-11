@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetario</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
 
+  <nav id="barra-nav" class="barra-nav" aria-label="Navegación principal">
+    <span class="barra-nav__logo">Recetario</span>
+
+    <ul class="barra-nav__lista">
+      <li>
+        <a href="#inicio" data-vista="inicio" class="barra-nav__enlace">Inicio</a>
+      </li>
+      <li>
+        <a href="#explorar" data-vista="explorar" class="barra-nav__enlace">Explorar</a>
+      </li>
+      <li>
+        <a href="#categorias" data-vista="categorias" class="barra-nav__enlace">Categorías y orígenes</a>
+      </li>
+      <li>
+        <a href="#comparador" data-vista="comparador" class="barra-nav__enlace">
+          Comparador <span class="barra-nav__badge" data-rol="badge">0</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="app-main"></main>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
